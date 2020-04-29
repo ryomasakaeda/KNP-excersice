@@ -4,6 +4,7 @@ import sys
 knp=KNP(jumanpp=True)
 
 data=""
+#
 for line in iter(sys.stdin.readline,""):
     data+=line
     if line.strip()=="EOS":
